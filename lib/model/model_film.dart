@@ -9,4 +9,6 @@ class Film {
     return Film(
         title: json["Title"], genre: json["Genre"], poster: json["Poster"]);
   }
+
+  
 }
